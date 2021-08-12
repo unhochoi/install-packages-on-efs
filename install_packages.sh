@@ -20,4 +20,5 @@ mkdir /home/ec2-user/mountpoint/efs/packages
 pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ numpy
 # pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ xgboost
 pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ sklearn
-pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tensorflow
+# pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tensorflow
+pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tflite
