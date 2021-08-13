@@ -18,7 +18,7 @@ sudo yum -y install python3-devel
 # 패키지 설치 (--target 옵션을 이용하여 특정 위치에 패키지 설치)
 mkdir /home/ec2-user/mountpoint/efs/packages
 pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ numpy
+pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tensorflow
+# pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ sklearn
 # pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ xgboost
-pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ sklearn
-# pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tensorflow
-pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tflite
+# pip3.8 install --upgrade --target /home/ec2-user/mountpoint/efs/packages/ tflite
